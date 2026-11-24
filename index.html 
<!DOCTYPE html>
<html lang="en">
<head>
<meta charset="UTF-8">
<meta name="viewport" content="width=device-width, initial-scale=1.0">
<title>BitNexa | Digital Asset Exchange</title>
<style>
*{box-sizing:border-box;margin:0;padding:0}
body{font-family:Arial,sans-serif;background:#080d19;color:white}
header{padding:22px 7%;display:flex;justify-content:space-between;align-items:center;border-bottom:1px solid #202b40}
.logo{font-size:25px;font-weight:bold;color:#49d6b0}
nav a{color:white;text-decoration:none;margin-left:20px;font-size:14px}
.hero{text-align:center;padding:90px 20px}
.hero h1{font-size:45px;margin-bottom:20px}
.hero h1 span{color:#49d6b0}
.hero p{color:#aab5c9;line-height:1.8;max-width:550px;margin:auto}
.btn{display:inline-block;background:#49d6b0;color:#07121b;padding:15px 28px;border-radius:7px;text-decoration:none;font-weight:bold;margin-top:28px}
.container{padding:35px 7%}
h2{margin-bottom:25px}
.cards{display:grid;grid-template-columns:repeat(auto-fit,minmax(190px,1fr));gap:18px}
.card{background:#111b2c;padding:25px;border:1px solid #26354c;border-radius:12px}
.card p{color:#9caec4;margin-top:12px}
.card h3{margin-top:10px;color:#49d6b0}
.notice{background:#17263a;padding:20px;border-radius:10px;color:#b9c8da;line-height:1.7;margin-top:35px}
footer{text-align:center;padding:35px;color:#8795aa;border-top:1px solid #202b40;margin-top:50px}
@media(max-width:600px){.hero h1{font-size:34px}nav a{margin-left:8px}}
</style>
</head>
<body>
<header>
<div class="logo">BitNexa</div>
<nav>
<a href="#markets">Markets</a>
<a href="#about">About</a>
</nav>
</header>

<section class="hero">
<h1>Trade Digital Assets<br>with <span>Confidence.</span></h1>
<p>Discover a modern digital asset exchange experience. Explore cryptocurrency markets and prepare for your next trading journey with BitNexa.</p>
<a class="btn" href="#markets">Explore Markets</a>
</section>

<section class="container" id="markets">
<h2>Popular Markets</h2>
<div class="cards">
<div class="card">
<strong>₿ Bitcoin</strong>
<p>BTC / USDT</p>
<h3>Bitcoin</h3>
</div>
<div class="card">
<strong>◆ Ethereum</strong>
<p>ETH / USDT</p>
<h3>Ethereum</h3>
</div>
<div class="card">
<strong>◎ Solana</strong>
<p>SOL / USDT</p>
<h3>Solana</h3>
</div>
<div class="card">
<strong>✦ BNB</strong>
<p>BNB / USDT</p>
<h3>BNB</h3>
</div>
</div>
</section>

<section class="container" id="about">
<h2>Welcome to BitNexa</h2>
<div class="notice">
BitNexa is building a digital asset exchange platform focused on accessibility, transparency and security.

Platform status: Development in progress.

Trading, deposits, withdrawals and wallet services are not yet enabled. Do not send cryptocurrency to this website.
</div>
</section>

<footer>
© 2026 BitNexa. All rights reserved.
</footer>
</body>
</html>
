@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BitNexa | Digital Asset Exchange</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#080d19;color:white}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #202b40}
+.logo{font-size:25px;font-weight:bold;color:#49d6b0}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{text-align:center;padding:90px 20px}
+.hero h1{font-size:45px;margin-bottom:20px}
+.hero h1 span{color:#49d6b0}
+.hero p{color:#aab5c9;line-height:1.8;max-width:550px;margin:auto}
+.btn{display:inline-block;background:#49d6b0;color:#07121b;padding:15px 28px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:28px}
+.container{padding:35px 7%}
+h2{margin-bottom:25px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.card{background:#111b2c;padding:25px;border:1px solid #26354c;border-radius:12px}
+.card p{color:#9caec4;margin-top:12px}
+.card h3{margin-top:10px;color:#49d6b0}
+.notice{background:#17263a;padding:20px;border-radius:10px;color:#b9c8da;line-height:1.7;margin-top:35px}
+footer{text-align:center;padding:35px;color:#8795aa;border-top:1px solid #202b40;margin-top:50px}
+@media(max-width:600px){.hero h1{font-size:34px}nav a{margin-left:8px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">BitNexa</div>
+<nav>
+<a href="#markets">Markets</a>
+<a href="#about">About</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Trade Digital Assets<br>with <span>Confidence.</span></h1>
+<p>Discover a modern digital asset exchange experience. Explore cryptocurrency markets and prepare for your next trading journey with BitNexa.</p>
+<a class="btn" href="#markets">Explore Markets</a>
+</section>
+
+<section class="container" id="markets">
+<h2>Popular Markets</h2>
+<div class="cards">
+<div class="card">
+<strong>₿ Bitcoin</strong>
+<p>BTC / USDT</p>
+<h3>Bitcoin</h3>
+</div>
+<div class="card">
+<strong>◆ Ethereum</strong>
+<p>ETH / USDT</p>
+<h3>Ethereum</h3>
+</div>
+<div class="card">
+<strong>◎ Solana</strong>
+<p>SOL / USDT</p>
+<h3>Solana</h3>
+</div>
+<div class="card">
+<strong>✦ BNB</strong>
+<p>BNB / USDT</p>
+<h3>BNB</h3>
+</div>
+</div>
+</section>
+
+<section class="container" id="about">
+<h2>Welcome to BitNexa</h2>
+<div class="notice">
+BitNexa is building a digital asset exchange platform focused on accessibility, transparency and security.
+
+Platform status: Development in progress.
+
+Trading, deposits, withdrawals and wallet services are not yet enabled. Do not send cryptocurrency to this website.
+</div>
+</section>
+
+<footer>
+© 2026 BitNexa. All rights reserved.
+</footer>
+</body>
+</html>
